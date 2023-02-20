@@ -126,6 +126,10 @@ html {
     .imageGif img {
         width: 200px;
     }
+
+    main {
+        padding: 0 5%;
+    }
 }
 
 
@@ -154,7 +158,7 @@ main .itemImg {
 
 @media only screen and (max-width: 600px) {
     main .item {
-        width: 250px;
+        width: 300px;
         padding: 0px 10px;
     }
 
