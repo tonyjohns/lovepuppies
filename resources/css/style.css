@@ -108,7 +108,7 @@ html {
         display: flex;
         justify-content: start;
         align-items: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     header li {
@@ -157,6 +157,11 @@ main .itemImg {
 }
 
 @media only screen and (max-width: 600px) {
+    main .mainList {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
     main .item {
         width: 300px;
         padding: 0px 10px;
