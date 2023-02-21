@@ -158,7 +158,7 @@ main .itemImg {
 
 @media only screen and (max-width: 600px) {
     main .mainList {
-        display: flex;
+        display: block;
         margin-bottom: 50px;
     }
 
