@@ -198,11 +198,14 @@ main .itemImg {
     max-width: 500px;
     display: block;
     justify-content: center;
-    align-items: center;
     margin-bottom: 100px;
 }
 
-
+.btnText {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 
 #button {
     font-size: 24px;
@@ -211,7 +214,6 @@ main .itemImg {
     height: 65px;
     background-color: rgb(245, 171, 87);
     border: 0;
-    position: relative;
     box-shadow: 
         inset -4px -2px 1px 1px grey,
         inset -4px -2px 1px 1px lightgray,
