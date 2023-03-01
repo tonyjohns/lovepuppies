@@ -61,10 +61,14 @@ btn.onclick = () => {
   document.getElementById('name').innerHTML = randomName(names);
 }
 
+let angle = 0;
+
 rBtn.onclick = () => {
-  rotationImage.style.transform = 'rotate(15deg)';
+  angle += 15;
+  rotationImage.style.transform = `rotate(${angle}deg)`;
 }
 
 lBtn.onclick = () => {
-  rotationImage.style.transform = 'rotate(-15deg)'
+  angle -= 15;
+  rotationImage.style.transform = `rotate(${angle}deg)`;
 }
