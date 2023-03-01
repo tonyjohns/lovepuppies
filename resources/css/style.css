@@ -207,7 +207,7 @@ main .itemImg {
     align-items: center;
 }
 
-#button {
+.button {
     font-size: 24px;
     color: #ffffff;
     width: 200px;
@@ -221,12 +221,12 @@ main .itemImg {
     border-radius: 10px;
 }
 
-#button:hover {
+.button:hover {
     cursor: pointer;
     background-color: rgb(243, 141, 24);
 }
 
-#button:active {
+.button:active {
     top: 5px;
     box-shadow: 
         -4px -2px 1px 1px grey,
@@ -240,4 +240,23 @@ main .itemImg {
     color: darkgray;
     text-align: center;
     font-weight: 700;
+}
+
+
+/*Rotation block*/
+main .rotation {
+    display: block;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+#rotationImage {
+    max-width: 150px;
+    margin-bottom: 40px;
+    transform: rotate(0);
+}
+
+.rotateBtn {
+    padding-right: 40px;
 }

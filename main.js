@@ -1,4 +1,7 @@
-let btn = document.getElementById('button');
+let btn = document.getElementById('generatorBtn');
+let lBtn = document.getElementById('leftRotation');
+let rBtn = document.getElementById('rightRotation');
+let rotationImage = document.getElementById('rotationImage');
 
 const names = [
     "Max",
@@ -55,5 +58,13 @@ const names = [
 const randomName = (names) => {return names[Math.floor(Math.random()*names.length)]};
 
 btn.onclick = () => {
-    document.getElementById('name').innerHTML = randomName(names);
+  document.getElementById('name').innerHTML = randomName(names);
+}
+
+rBtn.onclick = () => {
+  rotationImage.style.transform = 'rotate(15deg)';
+}
+
+lBtn.onclick = () => {
+  rotationImage.style.transform = 'rotate(-15deg)'
 }
